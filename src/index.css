@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 1rem;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d32f2f;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+footer {
+  background-color: #006400;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+
+@font-face {
+  font-family: 'WubbaLubbaDubDub';
+  src: url('./assets/WubbaLubbaDubDub.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar, footer, h1 {
+  font-family: 'WubbaLubbaDubDub', sans-serif;
+}
